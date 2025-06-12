@@ -1,0 +1,155 @@
+/*---header---*/
+.navbar.sticky{
+	background-color: #F8F9F9 ;
+	position: -webkit-sticky;
+	position: sticky;
+}
+.nav-link{
+	font-weight: bold;
+	font-family: Georgia, serif;
+	text-decoration-color: white;
+}
+.sliderr{
+	opacity:0.7;
+
+}
+.carousel-item {
+	height:600px;
+}
+.carousel-caption #my-carousel {
+    position: relative;
+    text-align: center;
+}
+#slider1{
+	padding-bottom: 10%;
+}
+#img{
+	width: 75%;
+	padding-bottom: : 5px;
+	border-radius: 10%;
+}
+.container{
+	padding: 30px;
+	position: relative;
+}
+
+/*-----about----*/
+#about{
+	padding-top: 5%;
+}
+.info{
+	background-color: #EBF5FB;
+}
+
+.card-img{
+	border-radius: 50%;
+}
+.col{
+	background-color: #AED6F1 ;
+	padding: 10px;
+	margin-top: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-radius: 40%;
+}
+
+#a{
+	background-color: #ffffff ;
+}
+.card{
+	border-radius: 20%;
+}
+.doctors_info{
+	padding-top: 50px;
+	background: linear-gradient(rgba(0,0,0.8,0.5), rgba(0,0,0.8,0.5)),url(https://images.pexels.com/photos/48603/pexels-photo-48603.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+
+/*---services----*/
+.services{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background: #EBF5FB;
+      }
+      .services h1{
+        margin-bottom: 15px;
+        color:black;
+      }
+      .services-box{
+        background: #D4E6F1 ;
+        padding: 10px;
+        margin-top: 20px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;	
+      }
+      .services-box .fa{
+        margin: 0 10px;
+        font-size: 20px;
+      }
+      .services-box span{
+        margin: 3px;
+        font-size:20px;
+        font-weight:bold;
+      }
+      .services-box:hover{
+        background: #2C3E50 ;
+        color:#fff;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        transition: 1s;
+      }
+
+/*------Contact---*/
+.contact{
+	padding-top: 50px;
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfATu5sL9Psm0yY68wBHJlPbUjmnoa4IQn7Q&usqp=CAU);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+}
+.contact .row{
+	padding: 30px 0;
+	font-size: 22px;
+}
+.contact .col-md-4 .fa{
+	padding: 10px;
+	font-size:40px;
+}
+.contact .col-md-4 a{
+	color:white;
+}
+.contact .btn{
+	padding: 10px 25px 10px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	background: transparent;
+}
+.contact .btn a{
+	color:white;
+}
+
+.contact .btn:focus{
+	box-shadow:none !important;
+}
+.contact .btn:hover{
+	border: 2px solid #000 !important;
+	background: #000 !important;
+	transition:0.6s;
+}
+.contact .btn .fa{
+	margin-right: 10px;
+}
+.footer{
+	background:#000;
+	height:50px;
+    margin-top: 50px;
+    color: #fff;    padding-top: 10px;
+    width: auto;
+}

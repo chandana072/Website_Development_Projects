@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+     <!-- Add this css File in head tag-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
+    <title>Vaccination Management System</title>
+</head>
+<body class="bd">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><b>VACCINATION MANAGEMENT SYSTEM</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="..\profile_page\profile.php">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vaccine Schedule</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="..\logout.php">LogOut</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="grid-container">  
+            <div class="row">
+                <div class="col-auto">
+                </div>
+                <div class="col-12 col-md-8" id="table">
+                    <h2 class="text-danger"><b> Vaccination chart</h2></b>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Age(completed)</th>
+                                <th scope="col">Vaccines</th>
+                                <th scope="col">Doses</th>
+                                <th scope="col">Content Tag</th>
+                                <th scope="col">Approx cost</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <tr>
+                                    <th scope="row" rowspan="4" id="first">Birth</th>
+                                    <tr>
+                                        <td>Bacillius Calmette-Guerin (BCG)</td>
+                                        <td>1</td>
+                                        <td>BCG</td>
+                                        <td>Rs.91-Rs.1025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oral polio Vaccine (OPV 0)</td>
+                                        <td>1</td>
+                                        <td>OPV</td>
+                                        <td>Rs.230</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hepatitis B (Hep-B1)</td>
+                                        <td>1</td>
+                                        <td>Hep-B</td>
+                                        <td>Rs.52.25-Rs.6000</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="7">6 weeks</th>
+                                    <tr>
+                                        <td>Dipthena Tetanus and Pertussis vaccine(IPPV 1)</td>
+                                        <td>1</td>
+                                        <td>DTP</td>
+                                        <td>Rs.225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inactivated polio vaccine(IPV 1)</td>
+                                        <td>1</td>
+                                        <td>IPV</td>
+                                        <td>Rs.440</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hepatitis B (Hep-B2)</td>
+                                        <td>1</td>
+                                        <td>Hep-B</td>
+                                        <td>Rs.52.25-Rs.6000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Haemaphilus influenzae type B(Hib 1)</td>
+                                        <td>1</td>
+                                        <td>Hib</td>
+                                        <td>Rs.113-Rs.252.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rotavirus 1</td>
+                                        <td>1</td>
+                                        <td>Roravirus</td>
+                                        <td>Rs.689-Rs.1499</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pneumococcal conjugate vaccin(DTwP 2)</td>
+                                        <td>1</td>
+                                        <td>PCV</td>
+                                        <td>Rs.1496-Rs.3801</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="6">10 weeks</th>
+                                    <tr>
+                                        <td>Diptheria Tetanus and Pertussia vaccine (DTwP2)</td>
+                                        <td>1</td>
+                                        <td>DTP</td>
+                                        <td>Rs.225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inactiveed polio vaccine(IPV 2)</td>
+                                        <td>1</td>
+                                        <td>IPV</td>
+                                        <td>Rs.440</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Haemaphilus influenzae type B(Hib 2)</td>
+                                        <td>1</td>
+                                        <td>Hib</td>
+                                        <td>Rs.113-Rs.252.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rotavirus 2</td>
+                                        <td>1</td>
+                                        <td>Rotavirus</td>
+                                        <td>Rs.689-Rs.1499</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pneumocccal conjugate vaccine(PCV 2)</td>
+                                        <td>1</td>
+                                        <td>PCV</td>
+                                        <td>Rs.1496-Rs.3801</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="6">14 weeks</th>
+                                    <tr>
+                                        <td>Diptheria Tetanus and Pertussia vaccine (DTwP3)</td>
+                                        <td>1</td>
+                                        <td>DTP</td>
+                                        <td>Rs.225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inactiveed polio vaccine(IPV 3)</td>
+                                        <td>1</td>
+                                        <td>IPV</td>
+                                        <td>Rs.440</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Haemaphilus influenzae type B(Hib 3)</td>
+                                        <td>1</td>
+                                        <td>Hib</td>
+                                        <td>Rs.113-Rs.252.6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rotavirus 3</td>
+                                        <td>1</td>
+                                        <td>Rotavirus</td>
+                                        <td>Rs.689-Rs.1499</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pneumocccal conjugate vaccine(PCV 3)</td>
+                                        <td>1</td>
+                                        <td>PCV</td>
+                                        <td>Rs.1496-Rs.3801</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="3">6 months</th>
+                                    <tr>
+                                        <td>Oral polio Vaccine (OPV 1)</td>
+                                        <td>1</td>
+                                        <td>OPV</td>
+                                        <td>Rs.230</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hepatitis B (Hep-B3)</td>
+                                        <td>1</td>
+                                        <td>Hep-B</td>
+                                        <td>Rs.52.25-Rs.6000</td>
+                                    </tr> 
+                                </tr>
+                                <tr>    
+                                    <th scope="row" rowspan="3">9 months</th>
+                                    <tr>
+                                        <td>Oral polio Vaccine (OPV 2)</td>
+                                        <td>1</td>
+                                        <td>OPV</td>
+                                        <td>Rs.230</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Measies Murmps and Rubelies(MMR-1)</td>
+                                        <td>1</td>
+                                        <td>MMR</td>
+                                        <td>Rs.156-Rs.600</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9-12 months</th>
+                            
+                                        <td>Typhoid Conjugate vaccine</td>
+                                        <td>1</td>
+                                        <td>TCV</td>
+                                        <td>Rs.150-Rs.525</td>
+                                    
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="4">15 months</th>
+                                    <tr>
+                                        <td>Measies Mumps and Rubells(MMR2)</td>
+                                        <td>1</td>
+                                        <td>MMR</td>
+                                        <td>Rs.155-Rs.600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Varic 1</td>
+                                        <td>1</td>
+                                        <td>Varicells</td>
+                                        <td>Rs.1623-Rs.2259</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PCV vaccine</td>
+                                        <td>1</td>
+                                        <td>PCV</td>
+                                        <td>Rs.1495-Rs.3801</td>
+                                    </tr>
+                                </tr>
+                                
+                                <tr>
+                                    <th scope="row" rowspan="4">16 to 18 months</th>
+                                    <tr>
+                                        <td>Dipthena perusis and Tetanus(DTwP B1)</td>
+                                        <td>1</td>
+                                        <td>DTP</td>
+                                        <td>Rs.225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Inactivated polio vaccine(IPV B1)</td>
+                                        <td>1</td>
+                                        <td>IPV</td>
+                                        <td>Rs.440</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hepatitis B (Hep-B1)</td>
+                                        <td>1</td>
+                                        <td>Hep-B</td>
+                                        <td>Rs.113-Rs.262.5</td>
+                                    </tr>
+                                </tr>
+                                
+                                <tr>
+                                    <th scope="row">18 months</th>
+                                        <td>Hepatitis B (Hep-A2)</td>
+                                        <td>1</td>
+                                        <td>Hep-A</td>
+                                        <td>Rs.1003-Rs.1395</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2 years</th>
+                                        <td>Boster of Typhoid Conjugate Vaccine</td>
+                                        <td>1</td>
+                                        <td>BTCV</td>
+                                        <td>Rs.150-Rs.525</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="5">4 to 6 years</th>
+                                    <tr>
+                                        <td>Dipthena perusis and Tetanus(DTwP B1)</td>
+                                        <td>1</td>
+                                        <td>DTP</td>
+                                        <td>Rs.225</td>
+                                    </tr>
+                                    <tr>
+                                        <td>oral polio vaccine (OVP 3)</td>
+                                        <td>1</td>
+                                        <td>OPV</td>
+                                        <td>Rs.230</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vercillia 2</td>
+                                        <td>1</td>
+                                        <td>varicclia</td>
+                                        <td>Rs.1626-Rs.2259</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Measles,Mumps and Rubella (MMR 3)</td>
+                                        <td>1</td>
+                                        <td>MMR</td>
+                                        <td>Rs.155-Rs.600</td>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="4">10 to 12years</th>
+                                    <tr>
+                                        <td>Tdap Td</td>
+                                        <td>1</td>
+                                        <td>Tdap</td>
+                                        <td>Rs.767-Rs.1096</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Human Papillarna</td>
+                                        <td>1</td>
+                                        <td>HPV</td>
+                                        <td>Rs.2150-Rs.2259</td>
+                                    </tr>
+                                </tr>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-auto">
+                    <div class="row">
+                        <img style="border-radius: 15%;" src="https://images.theconversation.com/files/331539/original/file-20200429-51474-1xkc00c.jpg?ixlib=rb-1.1.0&rect=39%2C3%2C2005%2C1358&q=45&auto=format&w=496&fit=clip">
+                    </div>
+                    <br>
+                    <div id="para">
+                        <h1> Things to remember<br>during Vaccination </h1>
+                        <p style="background-color: #FAD7A0; padding: 10px;"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Ensure to remember and administer the vaccine to <br> your child as per the schedule.<br><i class="fa fa-hand-o-right" aria-hidden="true"></i> Discuss with your pediatrician if you miss giving a <br>vaccine. He will recommend a suitable later date to <br>administer the same.<br><i class="fa fa-hand-o-right" aria-hidden="true"></i>A child should not be given the vaccine if he has an <br>ongoing fever. Discuss this with your pediatrician <br>and he will help reschedule the administration of <br>the vaccine at a later date. <br><i class="fa fa-hand-o-right" aria-hidden="true"></i> Sometimes pediatricians might offer option to <br>choose from a painless and a painful you the <br>vaccine for your child. Ensure to discuss them with<br> your pediatrician to make an informed decision as<br>the immunity of the child decreases faster with painless<br> vaccine over a painful vaccine.<br><i class="fa fa-hand-o-right" aria-hidden="true"></i>A vaccination is usually followed by a fever for <br>1-2 days in your child. You can use sponge bath to<br> reduce your child's temperature. However, if the fever<br> doesn't go away in 1-2 days, reach out to your <br>pediatrician for advice.<br><i class="fa fa-hand-o-right" aria-hidden="true"></i>Taking some family member or spouse to assist</p>
+                    </div>
+                    <div class="row">
+                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/11/20/09/children-0.jpg">
+                    </div>
+                    <br>
+                    <div id="para">
+                        <h3 class="text-center" style="font-family: Times New Roman;"><i class="fa fa-quote-left" aria-hidden="true"></i>Vaccines and antibiotics<br> have made many <br>infectious diseases a <br>thing of the past;<br> we've come to <br>expect that public<br> health and modern <br>science can conquer<br> all microbes. But <br>nature is a formidable<br> adversary.<i class="fa fa-quote-right" aria-hidden="true"></i></h3>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <div class="footer text-center pt-0">
+            <p> Copyright<i class="fa fa-copyright" aria-hidden="true"></i> 2020 | Vaccine Management System</p>
+            </div>
+</body>
+</html>

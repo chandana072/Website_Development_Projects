@@ -1,0 +1,48 @@
+.bd{
+	background-color:#D3EFF1;
+}
+
+/*---header---*/
+.navbar{
+	background-color: #F8F9F9  ;
+}
+.nav-link{
+	font-weight: bold;
+	font-family: Georgia, serif;
+	text-decoration-color: white;
+}
+
+.grid-container{
+	padding-top: 10px;
+}
+h2{
+	background-color:#95C2CF;
+	padding: 15px;
+	text-decoration-color: #fff;
+}
+#table{
+	background-color: #EBEDEF;
+	padding-top: 10px;
+}
+table thead,tbody,tr,th,td{
+	border: 1px solid black;
+}
+
+img{
+	width:400px;
+	padding-left: 25px;
+	padding-top: 25px;
+	border-radius: 50%;
+	border:10px solid black;
+}
+#para{
+	padding-left: 20px;
+}
+.footer{
+	background:#000;
+	height:50px;
+    margin-top: 50px;
+    color: #fff;
+    padding-top: 10px;
+    width: auto;
+}
