@@ -47,12 +47,6 @@
 
 ---
 
-## 📷 Screenshots (Optional)
-
-> Add your app UI screenshots here to make the repo more visual.
-
----
-
 ## 📈 Future Scope
 
 - Build a mobile app (Android/iOS)
